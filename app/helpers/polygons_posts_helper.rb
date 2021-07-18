@@ -1,0 +1,2 @@
+module PolygonsPostsHelper
+end

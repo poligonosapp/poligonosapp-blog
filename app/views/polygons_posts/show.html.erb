@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @polygons_post.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @polygons_post.body %>
+</p>
+
+<%= link_to 'Edit', edit_polygons_post_path(@polygons_post) %> |
+<%= link_to 'Back', polygons_posts_path %>
