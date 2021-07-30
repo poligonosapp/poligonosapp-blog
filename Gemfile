@@ -7,6 +7,8 @@ gem 'mongoid', '~> 7.0.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
+# rails webpacker js preprocessor
+gem 'webpacker', '~> 6.x'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
